@@ -1,0 +1,12 @@
+F:\1111\GDGeek\class7\Temp\UnityVS_bin\Debug\Assembly-CSharp-firstpass.dll
+F:\1111\GDGeek\class7\Temp\UnityVS_bin\Debug\Assembly-CSharp-firstpass.pdb
+F:\1111\GDGeek\class7\Temp\UnityVS_bin\Debug\JsonFx.Json.dll
+F:\1111\GDGeek\class7\Temp\UnityVS_bin\Debug\UnityEditor.dll
+F:\1111\GDGeek\class7\Temp\UnityVS_bin\Debug\UnityEngine.dll
+F:\1111\GDGeek\class7\Temp\UnityVS_bin\Debug\UnityEngine.UI.dll
+F:\1111\GDGeek\class7\Temp\UnityVS_bin\Debug\UnityEngine.xml
+F:\1111\GDGeek\class7\Temp\UnityVS_bin\Debug\UnityEditor.xml
+F:\1111\GDGeek\class7\Temp\UnityVS_bin\Debug\UnityEngine.UI.xml
+F:\1111\GDGeek\class7\obj\Debug\UnityVS.class7.CSharp.Plugins.csprojResolveAssemblyReference.cache
+F:\1111\GDGeek\class7\obj\Debug\Assembly-CSharp-firstpass.dll
+F:\1111\GDGeek\class7\obj\Debug\Assembly-CSharp-firstpass.pdb

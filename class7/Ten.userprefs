@@ -1,0 +1,32 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Code/Logic.cs">
+    <Files>
+      <File FileName="Assets/Plugins/GDGeek/FSM/FSM.cs" Line="1" Column="1" />
+      <File FileName="Assets/Code/Cube.cs" Line="1" Column="1" />
+      <File FileName="Assets/Code/Play.cs" Line="1" Column="1" />
+      <File FileName="Assets/Code/Square.cs" Line="1" Column="1" />
+      <File FileName="Assets/Code/End.cs" Line="1" Column="1" />
+      <File FileName="Assets/Code/View.cs" Line="1" Column="1" />
+      <File FileName="Assets/Code/Logic.cs" Line="56" Column="29" />
+      <File FileName="Assets/Code/Hud.cs" Line="1" Column="1" />
+      <File FileName="Assets/Code/Model.cs" Line="1" Column="1" />
+      <File FileName="Assets/Code/Ctrl.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="Assembly-CSharp" expanded="True">
+            <Node name="Code" expanded="True">
+              <Node name="Logic.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

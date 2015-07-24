@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{D1E7B608-8ECD-CC18-9D98-A6DF812C88CB}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_6_0;UNITY_4_6;UNITY_STANDALONE_OSX;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_GAMECENTER;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Plugins\GDGeek\FSM\FSM.cs" />
+     <Compile Include="Assets\Plugins\GDGeek\FSM\FSMEvent.cs" />
+     <Compile Include="Assets\Plugins\GDGeek\FSM\State.cs" />
+     <Compile Include="Assets\Plugins\GDGeek\FSM\StateEventTask.cs" />
+     <Compile Include="Assets\Plugins\GDGeek\FSM\StateWithEventMap.cs" />
+     <Compile Include="Assets\Plugins\GDGeek\FSM\TaskState.cs" />
+     <Compile Include="Assets\Plugins\GDGeek\JsonFx\ForEach.cs" />
+     <Compile Include="Assets\Plugins\GDGeek\JsonFx\JsonConverters.cs" />
+     <Compile Include="Assets\Plugins\GDGeek\JsonFx\JsonDataHandler.cs" />
+     <Compile Include="Assets\Plugins\GDGeek\JsonFx\JsonFx.Json\About.cs" />
+     <Compile Include="Assets\Plugins\GDGeek\JsonFx\JsonFx.Json\DataReaderProvider.cs" />
+     <Compile Include="Assets\Plugins\GDGeek\JsonFx\JsonFx.Json\DataWriterProvider.cs" />
+     <Compile Include="Assets\Plugins\GDGeek\JsonFx\JsonFx.Json\EcmaScriptIdentifier.cs" />
+     <Compile Include="Assets\Plugins\GDGeek\JsonFx\JsonFx.Json\EcmaScriptWriter.cs" />
+     <Compile Include="Assets\Plugins\GDGeek\JsonFx\JsonFx.Json\IDataReader.cs" />
+     <Compile Include="Assets\Plugins\GDGeek\JsonFx\JsonFx.Json\IDataWriter.cs" />
+     <Compile Include="Assets\Plugins\GDGeek\JsonFx\JsonFx.Json\IJsonSerializable.cs" />
+     <Compile Include="Assets\Plugins\GDGeek\JsonFx\JsonFx.Json\JsonDataReader.cs" />
+     <Compile Include="Assets\Plugins\GDGeek\JsonFx\JsonFx.Json\JsonDataWriter.cs" />
+     <Compile Include="Assets\Plugins\GDGeek\JsonFx\JsonFx.Json\JsonIgnoreAttribute.cs" />
+     <Compile Include="Assets\Plugins\GDGeek\JsonFx\JsonFx.Json\JsonMemberAttribute.cs" />
+     <Compile Include="Assets\Plugins\GDGeek\JsonFx\JsonFx.Json\JsonNameAttribute.cs" />
+     <Compile Include="Assets\Plugins\GDGeek\JsonFx\JsonFx.Json\JsonOptInAttribute.cs" />
+     <Compile Include="Assets\Plugins\GDGeek\JsonFx\JsonFx.Json\JsonReader.cs" />
+     <Compile Include="Assets\Plugins\GDGeek\JsonFx\JsonFx.Json\JsonReaderSettings.cs" />
+     <Compile Include="Assets\Plugins\GDGeek\JsonFx\JsonFx.Json\JsonSerializationException.cs" />
+     <Compile Include="Assets\Plugins\GDGeek\JsonFx\JsonFx.Json\JsonSpecifiedPropertyAttribute.cs" />
+     <Compile Include="Assets\Plugins\GDGeek\JsonFx\JsonFx.Json\JsonToken.cs" />
+     <Compile Include="Assets\Plugins\GDGeek\JsonFx\JsonFx.Json\JsonWriter.cs" />
+     <Compile Include="Assets\Plugins\GDGeek\JsonFx\JsonFx.Json\JsonWriterSettings.cs" />
+     <Compile Include="Assets\Plugins\GDGeek\JsonFx\JsonFx.Json\Properties\AssemblyInfo.cs" />
+     <Compile Include="Assets\Plugins\GDGeek\JsonFx\JsonFx.Json\Properties\AssemblyVersion.cs" />
+     <Compile Include="Assets\Plugins\GDGeek\JsonFx\JsonFx.Json\TypeCoercionUtility.cs" />
+     <Compile Include="Assets\Plugins\GDGeek\JsonFx\JsonFx.Json\XmlDataReader.cs" />
+     <Compile Include="Assets\Plugins\GDGeek\JsonFx\JsonFx.Json\XmlDataWriter.cs" />
+     <Compile Include="Assets\Plugins\GDGeek\Task\Filter.cs" />
+     <Compile Include="Assets\Plugins\GDGeek\Task\Task.cs" />
+     <Compile Include="Assets\Plugins\GDGeek\Task\TaskDelegate.cs" />
+     <Compile Include="Assets\Plugins\GDGeek\Task\TaskFactories.cs" />
+     <Compile Include="Assets\Plugins\GDGeek\Task\TaskList.cs" />
+     <Compile Include="Assets\Plugins\GDGeek\Task\TaskManager.cs" />
+     <Compile Include="Assets\Plugins\GDGeek\Task\TaskPack.cs" />
+     <Compile Include="Assets\Plugins\GDGeek\Task\TaskPartRunner.cs" />
+     <Compile Include="Assets\Plugins\GDGeek\Task\TaskRunner.cs" />
+     <Compile Include="Assets\Plugins\GDGeek\Task\TaskSet.cs" />
+     <Compile Include="Assets\Plugins\GDGeek\Task\TaskTest.cs" />
+     <Compile Include="Assets\Plugins\GDGeek\Task\TaskWait.cs" />
+     <Compile Include="Assets\Plugins\GDGeek\Toolkits\GlobalUI.cs" />
+     <Compile Include="Assets\Plugins\GDGeek\Toolkits\LoadingWindow.cs" />
+     <Compile Include="Assets\Plugins\GDGeek\Toolkits\OffsetUI.cs" />
+     <Compile Include="Assets\Plugins\GDGeek\Toolkits\SampleAnimation.cs" />
+     <Compile Include="Assets\Plugins\GDGeek\Tweener\IgnoreTimeScale.cs" />
+     <Compile Include="Assets\Plugins\GDGeek\Tweener\Tween.cs" />
+     <Compile Include="Assets\Plugins\GDGeek\Tweener\TweenAlpha.cs" />
+     <Compile Include="Assets\Plugins\GDGeek\Tweener\TweenGroupAlpha.cs" />
+     <Compile Include="Assets\Plugins\GDGeek\Tweener\TweenLocalPosition.cs" />
+     <Compile Include="Assets\Plugins\GDGeek\Tweener\TweenRotation.cs" />
+     <Compile Include="Assets\Plugins\GDGeek\Tweener\TweenScale.cs" />
+     <Compile Include="Assets\Plugins\GDGeek\Tweener\TweenTask.cs" />
+     <Compile Include="Assets\Plugins\GDGeek\Tweener\TweenValue.cs" />
+     <Compile Include="Assets\Plugins\GDGeek\Tweener\TweenWorldPosition.cs" />
+     <Compile Include="Assets\Plugins\GDGeek\Web\WebData.cs" />
+     <Compile Include="Assets\Plugins\GDGeek\Web\WebLoaderTask.cs" />
+     <Compile Include="Assets\Plugins\GDGeek\Web\WebPack.cs" />
+     <Compile Include="Assets\Plugins\GDGeek\Web\WebTask.cs" />
+     <Compile Include="Assets\Plugins\GDGeek\Web\WebTaskFactory.cs" />
+     <Compile Include="Assets\Plugins\GDGeek\Web\WebTimestamp.cs" />
+     <None Include="Assets\Plugins\GDGeek\JsonFx\JsonFx.Json\Readme.txt" />
+     <None Include="Assets\Plugins\GDGeek\JsonFx\JsonFx.Json\License.txt" />
+     <None Include="Assets\Plugins\GDGeek\JsonFx\JsonFx.Json\bin\Debug\License.txt" />
+     <None Include="Assets\Plugins\GDGeek\JsonFx\JsonFx.Json\bin\Release\Readme.txt" />
+     <None Include="Assets\Plugins\GDGeek\JsonFx\History.txt" />
+     <None Include="Assets\Plugins\GDGeek\JsonFx\JsonFx.Json\bin\Debug\Readme.txt" />
+     <None Include="Assets\Plugins\GDGeek\JsonFx\TODO.txt" />
+     <None Include="Assets\Plugins\GDGeek\JsonFx\JsonFx.Json\bin\Release\License.txt" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="JsonFx.Json">
+ <HintPath>/Users/ruidi/project/ten/Assets/Plugins/GDGeek/JsonFx/JsonFx.Json/bin/Release/JsonFx.Json.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
