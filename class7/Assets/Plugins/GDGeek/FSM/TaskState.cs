@@ -9,6 +9,13 @@ namespace GDGeek{
 		protected static int index_ =  0; 
 		//public delegate string NextState();
 
+        /// <summary>
+        /// 创建一个任务状态
+        /// </summary>
+        /// <param name="creater">一个返回值为Task的委托</param>
+        /// <param name="fsm">此任务状态所属的状态机</param>
+        /// <param name="nextState">下一个状态</param>
+        /// <returns>带有映射表的状态</returns>
 		static public StateWithEventMap Create(TaskFactory creater, FSM fsm, StateWithEventMap.StateAction nextState){
 			string over = "over" + index_.ToString();
 			index_++;

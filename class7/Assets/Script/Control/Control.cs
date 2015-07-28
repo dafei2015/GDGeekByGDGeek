@@ -319,7 +319,7 @@ public class Control : MonoBehaviour
 
                 if (c.isEnable)
                 {
-                    Debug.Log(i +":" + j + c.isEnable);
+//                    Debug.Log(i +":" + j + c.isEnable);
                     s.Show();
                     s.Number = c.number.ToString();
                 }

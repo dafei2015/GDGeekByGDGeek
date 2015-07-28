@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+
 namespace GDGeek{
 	public class FSM {
 
@@ -35,6 +36,7 @@ namespace GDGeek{
 			state.getCurrState = delegate (string name){	
 				for(int i = 0; i< this.currState_.Count; ++i){
 					State s = this.currState_[i] as State;
+                    Debug.Log(s.name +":"+name);
 					if(s.name == name)
 					{
 						return s;
