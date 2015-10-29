@@ -1,3 +1,0 @@
-5.0.0f4:1.9.9.0
-StandaloneWindows
-F:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll
